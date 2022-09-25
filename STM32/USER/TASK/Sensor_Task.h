@@ -1,0 +1,14 @@
+#ifndef __SENSOR_TASK_H
+#define __SENSOR_TASK_H
+
+#include "includes.h"
+
+typedef struct {
+    PressureMsg_t   Pressure_Data; //Ñ¹Á¦
+    MPU6050Msg_t    MPU6050_Data;  //mpu6050
+    TempHumiMsg_t   TempHum_Data;  //ÎÂÊª¶È
+    BattMsg_t 			Batt_Data; //µçÑ¹
+} SensorMsg_t;
+extern SensorMsg_t SensorData;
+void sensor_TaskFunction(void *pvParameters);
+#endif

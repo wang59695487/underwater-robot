@@ -1,0 +1,21 @@
+start
+F C D M 
+C H M E
+H F I J
+F A B G
+G E J L
+D E K L
+M A C K
+I L M H
+M B A D
+F C I M
+C A L J
+E F I H
+B C M K
+M L A G
+B D J K
+M HＡＫ
+A B  H D
+I J E K
+C H M A
+end

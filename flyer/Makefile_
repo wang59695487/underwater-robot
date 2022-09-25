@@ -1,0 +1,13 @@
+MAIN = main.cpp
+MAIN += queue.cpp
+XEC = demo
+CC = g++
+
+
+main:  
+	g++  main.cpp queue.cpp  -o demo `pkg-config --cflags --libs opencv` -g -Wall -std=c++14 -lpthread
+
+clean:
+	rm $(EXEC) -rf
+
+
